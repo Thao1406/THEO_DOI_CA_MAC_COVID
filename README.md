@@ -1,6 +1,6 @@
 # **I. Thông tin sinh viên** 
- **Sinh viên thực hiện: NGUYỄN THỊ THẢO**
- **Mã SV: K205480106027**
+ - **Sinh viên thực hiện: NGUYỄN THỊ THẢO**
+ - **Mã SV: K205480106027**
 # **II. Tên đề tài**
 **XÂY DỰNG WEBSITE THEO DÕI SỐ CA NHIỄM COVID CỦA THẾ GIỚI**
 # **III. Mục tiêu**
