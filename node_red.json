@@ -1,0 +1,115 @@
+[
+    {
+        "id": "990ba190f5d3a80b",
+        "type": "MSSQL",
+        "z": "7d7468da7c46e981",
+        "mssqlCN": "13ad6785db860982",
+        "name": "",
+        "outField": "payload",
+        "returnType": 0,
+        "throwErrors": 1,
+        "query": "EXEC COVID1 @quocgia   = @quocgia  , @socamac = @socamac ,@socatuvong = @socatuvong ,@socahoiphuc = @socahoiphuc , @socadangdieutri=@socadangdieutri",
+        "modeOpt": "queryMode",
+        "modeOptType": "query",
+        "queryOpt": "payload",
+        "queryOptType": "editor",
+        "paramsOpt": "",
+        "paramsOptType": "editor",
+        "rows": "rows",
+        "rowsType": "msg",
+        "parseMustache": true,
+        "params": [
+            {
+                "output": false,
+                "name": "quocgia",
+                "type": "NVarChar(255)",
+                "valueType": "msg",
+                "value": "payload.country",
+                "options": {
+                    "nullable": true,
+                    "primary": false,
+                    "identity": false,
+                    "readOnly": false
+                }
+            },
+            {
+                "output": false,
+                "name": "socamac",
+                "type": "int",
+                "valueType": "msg",
+                "value": "payload.cases",
+                "options": {
+                    "nullable": true,
+                    "primary": false,
+                    "identity": false,
+                    "readOnly": false
+                }
+            },
+            {
+                "output": false,
+                "name": "socatuvong",
+                "type": "int",
+                "valueType": "msg",
+                "value": "payload.deaths",
+                "options": {
+                    "nullable": true,
+                    "primary": false,
+                    "identity": false,
+                    "readOnly": false
+                }
+            },
+            {
+                "output": false,
+                "name": "socahoiphuc",
+                "type": "int",
+                "valueType": "msg",
+                "value": "payload.recovered",
+                "options": {
+                    "nullable": true,
+                    "primary": false,
+                    "identity": false,
+                    "readOnly": false
+                }
+            },
+            {
+                "output": false,
+                "name": "socadangdieutri",
+                "type": "int",
+                "valueType": "msg",
+                "value": "payload.active",
+                "options": {
+                    "nullable": true,
+                    "primary": false,
+                    "identity": false,
+                    "readOnly": false
+                }
+            }
+        ],
+        "x": 780,
+        "y": 160,
+        "wires": [
+            [
+                "cd7e15cec22414c4"
+            ]
+        ]
+    },
+    {
+        "id": "13ad6785db860982",
+        "type": "MSSQL-CN",
+        "tdsVersion": "7_4",
+        "name": "THAO123",
+        "server": "127.0.0.1",
+        "port": "1433",
+        "encyption": true,
+        "trustServerCertificate": true,
+        "database": "data_covid",
+        "useUTC": true,
+        "connectTimeout": "15000",
+        "requestTimeout": "15000",
+        "cancelTimeout": "5000",
+        "pool": "5",
+        "parseJSON": false,
+        "enableArithAbort": true,
+        "readOnlyIntent": false
+    }
+]
