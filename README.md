@@ -13,7 +13,5 @@
  3. Sử dụng Node-RED để xây dựng các luồng dữ liệu tự động, kết nối và xử lý dữ liệu từ API đến cơ sở dữ liệu.
  4. Sử dụng FastAPI để tạo các endpoint API để truy xuất dữ liệu số ca nhiễm  từ cơ sở dữ liệu.
  5. Sử dụng các công nghệ front-end (HTML, CSS, JavaScript, React.js) để xây dựng giao diện người dùng.
-     - Hiển thị quốc gia có ca nhiễm cao nhất trong 1 thời gian nhất định.
-     - Hiển thị quốc gia có ca nhiễm cao thấp trong 1 thời gian nhất định.
-     - Tạo biểu đồ thể hiện số ca nhiễm của các quốc gia qua từng giao đoạn.
+     - Tạo biểu đồ thể hiện số ca nhiễm của các quốc gia bao gồm: số ca nhiễm, số ca tử vong, số ca hồi phục, số ca đang điều trị
 
