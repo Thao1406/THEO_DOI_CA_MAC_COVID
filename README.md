@@ -14,4 +14,5 @@
  4. Sử dụng FastAPI để tạo các endpoint API để truy xuất dữ liệu số ca nhiễm  từ cơ sở dữ liệu.
  5. Sử dụng các công nghệ front-end (HTML, CSS, JavaScript, React.js) để xây dựng giao diện người dùng.
      - Tạo biểu đồ thể hiện số ca nhiễm của các quốc gia bao gồm: số ca nhiễm, số ca tử vong, số ca hồi phục, số ca đang điều trị
-
+# **V. Sơ đồ hoạt động**
+![Tên thay thế](https://github.com/Thao1406/THEO_DOI_CA_MAC_COVID/blob/master/anh_sodo_hoatdong.jpg)
